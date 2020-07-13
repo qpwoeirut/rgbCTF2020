@@ -20,6 +20,8 @@ Only problem with that is that I was using numpy arrays, which don't appreciate 
 
 So as a result, the red channel didn't get encoded.
 The blue and green channels still were set, since in Python `True + False == 1`.
+If you want to see the mistake, it's in `emoji_chain_stego.py` on line 22.
+I originally forgot to convert the boolean to an int, so `[int(b)]` was just `[b]`.
 Again, I'm sorry. I really should have run my full solution after obfuscating, but I only ran the second part.
 This is why you test comprehensively!
 
