@@ -1,0 +1,16 @@
+# rgbCTF2020
+
+testing
+
+.DS_Store
+
+# PyCharm/IntelliJ stuff
+.idea
+**/__pycache__
+
+# Eclipse C++ stuff
+**/.metadata
+**/.cproject
+**/.project
+**/.settings
+**/Debug
