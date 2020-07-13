@@ -15,22 +15,18 @@ def gee(l):
     i=n.array(I.open("f.png"))
     r=127
     g=127
-    b=0
+    b=False
     for char in l:
-        print(bin(ord(char))[2:].rjust(8, '0'))
         for bit in bin(ord(char))[2:].rjust(8, '0'):
             bit=int(bit)
-            i[r][g][int(b)]|=bit
-            print(r, g, int(b), i[r][g][int(b)] & 1)
-            b+=1
+            i[r][g][int(b)]|=bit  # THIS WAS THE PROBLEM - NEVER USE BOOLEANS AS INDEXES FOR NUMPY ARRAYS
+            b+=True
             if b==3:
-                b=0
-                g-=1
+                b=False
+                g-=True
                 if g==-1:
                     g=127
-                    r-=1
-    for x in range(128):
-        print(i[127][x][0] & 1, i[127][x][1] & 1, i[127][x][2] & 1)
+                    r-=True
     return i
 def bee(c):
     return[(a,c//a) for a in range(True,c+True) if c%a==False]

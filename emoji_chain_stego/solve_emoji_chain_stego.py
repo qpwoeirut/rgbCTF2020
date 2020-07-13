@@ -7,7 +7,7 @@ MX = 16
 
 def split_into_images() -> list:
     imgs = []
-    img = np.array(Image.open("emoji_chain_stego1.png"))
+    img = np.array(Image.open("emoji_chain_stego.png"))
 
     h, _, _ = img.shape
 
