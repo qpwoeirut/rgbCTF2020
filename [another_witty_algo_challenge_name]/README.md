@@ -1,4 +1,4 @@
-# rgbCTF 2020 Writeups: Picking Up The Pieces
+# rgbCTF 2020 Writeups: [another witty algo challenge name]
 by BobbaTea, qpwoeirut
 
 Category: Misc<br>
