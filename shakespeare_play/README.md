@@ -2,7 +2,7 @@
 by qpwoeirut
 
 Category: Cryptography<br>
-Points: TBD<br>
+Points: 374<br>
 Description: Did you know RGBsec was founded in the 16th century? Our top notch team of RGBsec archaeologists has uncovered this ancient manuscript to prove it. There also were some numbers inscribed beside this manuscript, they might help you. Unfortunately, flag formats hadn't been invented yet, so you will need to enclose the flag in the flag format.<br>
 Files: play, some_numbers.txt
 

@@ -2,7 +2,7 @@
 by qpwoeirut
 
 Category: Cryptography<br>
-Points: TBD<br>
+Points: 219<br>
 Description:<br>
 But clearly not tested enough... can you get the flag?<br>
 `nc challenge.rgbsec.xyz 12345`<br>

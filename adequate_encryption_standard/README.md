@@ -2,7 +2,7 @@
 by qpwoeirut
 
 Category: Cryptography<br>
-Points: TBD<br>
+Points: 476<br>
 Description:<br>
 >I wrote my own AES! Can you break it?
 >hQWYogqLXUO+rePyWkNlBlaAX47/2dCeLFMLrmPKcYRLYZgFuqRC7EtwX4DRtG31XY4az+yOvJJ/pwWR0/J9gg==
